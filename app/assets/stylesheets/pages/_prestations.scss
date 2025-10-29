@@ -36,3 +36,15 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.click {
+  color : #B9B29C;
+  font-size: 16px;
+}
+
+.click:hover {
+  color : #B9B29C;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.5;
+}
