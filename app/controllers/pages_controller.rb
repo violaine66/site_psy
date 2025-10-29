@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def rdv
   end
+
+  def prestations
+  end
 end
