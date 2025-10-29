@@ -10,3 +10,23 @@
   max-width: 100%;
   height: 600px;
 }
+
+.nom, .tel {
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+.nom {
+  color:#DDA394
+}
+
+.tel, .adresse {
+  color:#B9B29C;
+}
+
+.contact {
+  font-weight: bolder;
+  font-size: 24px;
+  color:#B9B29C;
+}

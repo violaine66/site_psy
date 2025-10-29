@@ -1,18 +1,22 @@
 <%= render 'shared/navbar' %>
 <div class="banner">
   <div class="container">
-       <div class="text-center">
-
-
-       <%= image_tag "LogoViolaine.png", alt: "Violaine Soulas", id:"logo" %>
-
-       </div>
+      <div class="text-center">
+        <%= image_tag "LogoViolaine.png", alt: "Violaine Soulas", id:"logo" %>
+      </div>
        <div class="canigou d-flex justify-content-center">
         <%= image_tag "canigou.jpg", alt: "Canigou", class: "img-fluid mb-5" %>
        </div>
-
+      <div class="text-center cormorant" id="contact-container">
+              <p class="contact">Contactez moi pour un renseignement ou une prise de rendez-vous</p>
+              <p class="nom">Violaine Soulas - Psychologue </p>
+              <p class="adresse">Adresse : 123 Rue de la Psychologie, 75000 Paris</p>
+              <p class="tel">Téléphone : 06 00 00 00 00</p>
+      </div>
   </div>
+
 </div>
+
 
 <%= render 'shared/link-doctolib' %>
 

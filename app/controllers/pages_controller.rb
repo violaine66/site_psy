@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def quisuisje
   end
+
+  def rdv
+  end
 end

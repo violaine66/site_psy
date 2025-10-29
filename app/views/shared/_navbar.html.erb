@@ -14,10 +14,12 @@
         <%= link_to "Accueil", root_path, class: "nav-link" %>
         <%= link_to "Qui suis-je ?", quisuisje_path, class: "nav-link" %>
         <a class="nav-link" href="#">Prestations</a>
-        <a class="nav-link" href="#">Prendre rendez-vous</a>
+        <%= link_to "Prendre rendez-vous", rdv_path, class: "nav-link" %>
         <a class="nav-link" href="#">Tarifs</a>
         <a class="nav-link" href="#">Informations pratiques</a>
-        <a class="nav-link" href="#">Contact</a>
+        <%= link_to "Contact", root_path(anchor: "contact-container"), class: "nav-link" %>
+
+
       </div>
     </div>
   </div>
