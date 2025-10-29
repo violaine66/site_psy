@@ -1,14 +1,16 @@
 .title {
    font-family: "Pacifico", cursive;
    letter-spacing: 1px;
-    font-size: 1.8rem;}
+    font-size: 1.8rem;
+    color:#DDA394;
+  }
 
 #quisuisje-container {
   background-color: #fff;
   box-sizing: border-box;
   line-height: 1.5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 0px;
-  margin-bottom: 0px;
+  border-radius: 8px;
+  margin: 20px auto;
   padding: 40px;
 }
