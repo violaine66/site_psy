@@ -1,13 +1,16 @@
 <%= render "shared/navbar" %>
 <div class="container">
   <div class="row d-flex justify-content-center my-4" id="prestations-container">
+    <div id="citation">Le plus grand voyage commence par un pas vers soi
+      <p>- Anonyme </p>
+    </div>
     <div class="col-sm-12 col-md-8 col-lg-6 mt-4 justify-content-center" id="bilans-container">
 
 
-      <div  id="bilan">Bilans Psychométriques <em><p class="click">Cliquez ici pour en savoir plus</p></em></div>
-      <div id="bilan">Bilans d'orientation <em><p class="click">Cliquez ici pour en savoir plus</p></em></div>
-      <div id="bilan">Bilans de compétence <em><p class="click">Cliquez ici pour en savoir plus</p></em></div>
-      <div id="bilan">Entretien <em><p class="click">Cliquez ici pour en savoir plus</p></em></div>
+      <div  id="bilan">Bilans Psychométriques <%= image_tag "puzzle.png" %><em><p class="click">Cliquez ici pour en savoir plus</p></em></div>
+      <div id="bilan">Bilans d'orientation <br><br><%= image_tag "boussole.png", alt: "Cliquez ici pour en savoir plus" %><em><p class="click">Cliquez ici pour en savoir plus</p></em></div>
+      <div id="bilan">Bilans de compétence <%= image_tag "chemin.png", alt: "Cliquez ici pour en savoir plus" %><em><p class="click">Cliquez ici pour en savoir plus</p></em></div>
+      <div id="bilan">Entretien <%= image_tag "entretien.png", alt: "Cliquez ici pour en savoir plus" %><em><p class="click">Cliquez ici pour en savoir plus</p></em></div>
 
     </div>
   </div>
