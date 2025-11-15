@@ -52,7 +52,7 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
   cursor: pointer;
   opacity: 1;
- 
+
 }
 
 .click {
@@ -78,3 +78,13 @@
  ul > li {
   list-style: none;
  }
+
+@media (max-width: 996px) {
+
+  #bilans-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    justify-items: center;
+  }
+
+}
