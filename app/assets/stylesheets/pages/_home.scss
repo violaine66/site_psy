@@ -32,6 +32,9 @@
   color:#B9B29C;
 }
 
+#home-container {
+  height: calc(100vh - 160px);
+}
 
 @media (max-width: 1065px) {
   #home-container {
