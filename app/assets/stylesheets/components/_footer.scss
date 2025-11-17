@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-around;
   height: 60px;
-  padding: 0px 12px;
+  padding: 0px 10px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -13,6 +13,11 @@
   background-color: #B9B29C;
   opacity: 0.9;
 }
+
+.droits-reserves > p {
+  margin: 16px 0;
+}
+
 .footer-links {
   display: flex;
   align-items: center;
@@ -27,3 +32,10 @@
 .footer-links a:hover {
   opacity: 1;
 }
+
+@media (max-width: 783px) {
+  .droits-reserves > p {
+  font-size: 11px;
+  }
+}
+
