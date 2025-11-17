@@ -3,11 +3,19 @@
   grid-template-columns: 1fr;
   gap: 1.5rem;
 
+
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
+.clarification {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-align: center;
+}
 #bilan-psy-title, #consultation-individuelle-title {
   font-size: 2rem;
   font-weight: 700;
