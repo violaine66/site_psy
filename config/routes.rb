@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get "quisuisje", to: "pages#quisuisje", as: :quisuisje
   get "prestations", to: "pages#prestations", as: :prestations
   get "bilans", to: "pages#bilans", as: :bilans
+  get "/psychologue-saint-esteve", to: redirect("/")
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
