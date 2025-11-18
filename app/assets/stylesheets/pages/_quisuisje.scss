@@ -3,7 +3,10 @@
    letter-spacing: 1px;
     font-size: 1.8rem;
     color:#DDA394;
+    line-height: 4rem;
+    font-weight: lighter;
   }
+
 
 #quisuisje-container {
   background-color: #fff;
@@ -57,14 +60,14 @@
     width: 200px;
     height: 200px;
   }
-  *
-  .title, .title-qui {
+
+  .title, .title-qui, .title-qui-suis-je {
     font-size: 1.2rem;
   }
 
   .title-qui {
     margin-bottom: 30px;
-    margin-top: 30px;
+    line-height: 2.5rem;
   }
 
 }
