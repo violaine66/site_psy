@@ -6,7 +6,10 @@
 </h1>
 
 <%= link_to quisuisje_path, class: "text-decoration-none fs-5" do %>
-  <p class="sous-title text-center"><em ><strong>En savoir +</strong></em></p>
+  <p class="sous-title text-center"><em ><strong>En savoir +</strong></em> </p>
+<% end %>
+<%= link_to prestations_path, class: "text-decoration-none fs-5" do %>
+  <p class="sous-title text-center"><em ><strong>Accompagnements proposés</strong></em> </p>
 <% end %>
 
       <div class="d-flex justify-content-center align-items-center gap-4" id="home-container">
@@ -51,13 +54,13 @@
         <p>- Anonyme </p>
       </div>
       <div class="col-sm-12 col-md-8 col-lg-6 mt-4 justify-content-center" id="bilans-container">
-        <%= link_to bilans_path(anchor: "consultation-individuelle-title"), class: "click" do %>
+        <%= link_to bilanpsychologique_path(anchor: "consultation-individuelle-title"), class: "click" do %>
           <div id="bilan">
             Consultation individuelle
             <%= image_tag "entretien.png", alt: "Cliquez ici pour en savoir plus" %>
           </div>
         <% end %>
-        <%= link_to bilans_path, class: "click" do %>
+        <%= link_to bilanpsychologique_path, class: "click" do %>
           <div  id="bilan">Bilans Psychométriques <%= image_tag "puzzle.png" %></div>
         <% end %>
       </div>

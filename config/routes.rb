@@ -4,7 +4,9 @@ Rails.application.routes.draw do
 
   get "quisuisje", to: "pages#quisuisje", as: :quisuisje
   get "prestations", to: "pages#prestations", as: :prestations
-  get "bilans", to: "pages#bilans", as: :bilans
+  get "bilanpsychologique", to: "pages#bilanpsychologique", as: :bilanpsychologique
+  get "consultationindividuelle", to: "pages#consultationindividuelle", as: :consultationindividuelle
+
   get "/psychologue-saint-esteve", to: redirect("/")
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
