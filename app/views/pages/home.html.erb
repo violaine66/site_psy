@@ -3,20 +3,65 @@
   <div class="container">
     <div class="d-flex justify-content-center align-items-center gap-4" id="home-container">
       <div class="text-center">
-              <%= image_tag "LogoViolaine.png", alt: "Violaine Soulas", id:"logo" %>
-              <div class="text-center cormorant" id="contact-container">
-                    <p class="rdv">Prise de rendez-vous sur doctolib </p>
-                    <p class="adresse">Adresse : 6 bis avenue du Maréchal Joffre
-                      <p class="adresse"> 66240 Saint-Estève</p>
-                    <p class="contact">N'hésitez pas à me contacter par mail pour tout demande d'informations </p>
-                    <p class="mail"><strong>Mail : vsoulas.psychologue@gmail.com</strong></p>
-            </div>
-            </div>
-
-            <div class="canigou d-flex justify-content-center">
-              <%= image_tag "canigou.jpg", alt: "Canigou", class: "img-fluid" %>
-            </div>
+        <%= image_tag "LogoViolaine.png", alt: "Violaine Soulas", id:"logo" %>
+        <div class="text-center cormorant" id="contact-container">
+              <p class="rdv">Prise de rendez-vous sur doctolib </p>
+              <p class="adresse">Adresse : 6 bis avenue du Maréchal Joffre</p>
+                <p class="adresse"> 66240 Saint-Estève</p>
+              <p class="contact">N'hésitez pas à me contacter par mail pour tout demande d'informations </p>
+              <p class="mail"><strong>Mail : vsoulas.psychologue@gmail.com</strong></p>
         </div>
+      </div>
+      <div class="canigou d-flex justify-content-center">
+        <%= image_tag "canigou.jpg", alt: "Canigou", class: "img-fluid" %>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center align-items-center" id="quisuisje-container">
+     <p class="title text-center">Je m’appuie sur la science pour orienter mon travail,</p>
+     <p class="title text-center">et sur l’humain pour le mettre en sens.</p>
+        <%# Écouter, comprendre, accompagner,< <</p> %>
+      </p>
+      <div class="col d-flex justify-content-center align-items-center">
+
+       <%= image_tag "moi.JPG", alt: "Violaine Soulas", id:"logo-photo" %>
+      </div>
+      <div class="col-sm-10 col-md-8 col-lg-6 mt-3">
+        <p class="cormorant ">Originaire de Saint-Estève, j’ai étudié la psychologie à l’Université Paul Valéry de Montpellier avant d’intégrer l’Éducation nationale, où j’ai exercé plus de 15 ans auprès de jeunes et de leurs familles </p>
+        <p class="cormorant">J’y ai pris plaisir à les accompagner dans leurs parcours scolaires et personnels : orientation, questionnements, constitution de dossiers MDPH, compréhension d’un diagnostic, prévention du harcèlement, soutien psychologique, travail en équipe…</p>
+        <p class="cormorant">Parallèlement, j’ai également travaillé au sein d’un CIO (Centre d’Information et d’Orientation), où je recevais des étudiants et un public adulte, afin de les aider dans leurs choix d’orientation, leurs questionnements professionnels et personnels, et à mieux comprendre leurs besoins.</p>
+        <p class="cormorant">Aujourd’hui, j’accueille enfants, adolescents et adultes dans un cadre bienveillant et confidentiel, pour des bilans psychologiques ou des entretiens d’accompagnement. Mon objectif est d’accompagner chacun dans la compréhension de soi, de ses besoins et de ses ressources, afin de progresser à son rythme vers un parcours scolaire, personnel ou professionnel plus serein et épanoui.</p>
+        </p>
+        <p class="cormorant">Mon objectif : que chaque rencontre soit un pas vers un mieux-être durable, dans le respect du rythme et des besoins de chacun.</p>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center my-4" id="prestations-container">
+      <div id="citation">"Le plus grand voyage commence par un pas vers soi"
+        <p>- Anonyme </p>
+      </div>
+      <div class="col-sm-12 col-md-8 col-lg-6 mt-4 justify-content-center" id="bilans-container">
+        <%= link_to bilans_path(anchor: "consultation-individuelle-title"), class: "click" do %>
+          <div id="bilan">
+            Consultation individuelle
+            <%= image_tag "entretien.png", alt: "Cliquez ici pour en savoir plus" %>
+          </div>
+        <% end %>
+        <%= link_to bilans_path, class: "click" do %>
+          <div  id="bilan">Bilans Psychométriques <%= image_tag "puzzle.png" %></div>
+        <% end %>
+      </div>
+    </div>
+
+
+    <div class="row d-flex justify-content-center my-4" id="prestations-container">
+      <div class="d-flex justify-content-center"><h2 class="title">Prochainement</h2></div>
+          <div class="col-sm-12 col-md-8 col-lg-6 mt-4 justify-content-center" id="bilans-container">
+
+          <div id="bilan">Bilans d'orientation <br><br><%= image_tag "boussole.png" %><%= link_to "Cliquez ici pour en savoir plus", bilans_path, class:"click" %></div>
+          <div id="bilan">Bilans de compétences <%= image_tag "chemin.png", alt: "Cliquez ici pour en savoir plus" %><%= link_to "Cliquez ici pour en savoir plus", bilans_path, class:"click" %></div>
+        </div>
+    </div>
   </div>
 </div>
 
