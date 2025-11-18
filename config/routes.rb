@@ -3,7 +3,6 @@ Rails.application.routes.draw do
 
 
   get "quisuisje", to: "pages#quisuisje", as: :quisuisje
-  get "rdv", to: "pages#rdv", as: :rdv
   get "prestations", to: "pages#prestations", as: :prestations
   get "bilans", to: "pages#bilans", as: :bilans
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
