@@ -1,46 +1,60 @@
 <%= render "shared/navbar" %>
 <div class="container cormorant">
-  <h1 class="title cormorant mb-6" id="consultation-individuelle-title">
+  <div class=" mt-3 row d-flex justify-content-center align-items-end" id="consultation-individuelle-container">
+
+    <h1 id="consultation-individuelle-title" class="text-center mt-3">
       Consultation individuelle
-  </h1>
+    </h1>
 
-<div class="row d-flex justify-content-center align-items-center" id="quisuisje-container">
+    <!-- Bloc 1 -->
+    <section>
+      <h3 class="sous-title-consult text-center">Enfants, adolescents, adultes <br> je vous accueille dans un cadre bienveillant et confidentiel.</h3>
+    </section>
 
-  <div class="col d-flex flex-column align-items-center">
-    <div >
-      <p><h3>Enfants, adolescents, adultes : je vous accueille dans un cadre bienveillant et confidentiel.</h3></p>
+  <div class="d-flex justify-content-center align-items-center mt-4" id="consultation-content">
+
+
+
+    <div class="img-consult me-2">
+      <%= image_tag "entretien.png", alt: "Entretien", class: "img-fluid" %>
+
     </div>
 
-    <div>
-      <p><h3>À votre rythme</h3>
-      chaque consultation est personnalisée selon vos besoins.</p>
-    </div>
+    <div class="consultation-text ms-4 d-flex flex-column justify-content-center">
+      <!-- Bloc 2 -->
+      <section>
+        <h3>À votre rythme</h3>
+        <p>Chaque consultation est personnalisée selon vos besoins.</p>
+      </section>
 
-    <div><p><h3>Pour quoi ?</h3></p>
-        Soutien psychologique
+      <!-- Bloc 3 -->
+      <section>
+        <h3>Pour quoi ?</h3>
+        <p>Soutien psychologique</p>
+        <p>Questionnements scolaires ou personnels</p>
+        <p>Préparation à un bilan</p>
+      </section>
 
-        Questionnements scolaires ou personnels
+      <!-- Bloc 4 -->
+      <section>
+        <h3>Comment ?</h3>
+        <p>Écoute active</p>
+        <p>Compréhension de vos ressources</p>
+        <p>Solutions concrètes pour avancer</p>
+      </section>
 
-        Préparation à un bilan
-    </div>
-
-    <div><p><h3>Comment ?</h3></p>
-
-      Écoute active
-
-      Compréhension de vos ressources
-
-      Solutions concrètes pour avancer
-    </div>
-
-    <div>
-      <p><h3>Le but</h3></p>
-    Chaque rencontre est un moment pour mieux se comprendre et progresser sereinement.</p>
+      <!-- Bloc 5 -->
+      <section>
+        <h3>Le but</h3>
+        <p>Chaque rencontre est un moment pour mieux se comprendre et progresser sereinement.</p>
+      </section>
     </div>
 
   </div>
-  </div >
+
+
 </div>
+
 
 <%= render "shared/link-doctolib" %>
 <%= render "shared/footer" %>

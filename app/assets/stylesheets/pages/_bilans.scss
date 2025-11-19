@@ -3,10 +3,24 @@
   grid-template-columns: 1fr;
   gap: 1.5rem;
 
-
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+#consultation-individuelle-title {
+  font-family:Karla, sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 32px;
+  color:#DDA394;
+  font-weight: bolder;
+
+}
+
+.sous-title-consult {
+  font-size: 24px;
+  color:#B9B29C;
+  margin-top: 10px;
 }
 
 .clarification {
@@ -20,8 +34,51 @@
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
-  margin: 50px 0;
   color:#DDA394;
-  border: 2px solid #DDA394;
   padding: 20px;
 }
+ #consultation-individuelle-container {
+  background-color: #fff;
+  box-sizing: border-box;
+  line-height: 1.5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 20px auto;
+}
+
+#consultation-individuelle-container h3 {
+  color:#B9B29C;
+  font-style: karla, sans-serif;
+  font-weight: bold;
+}
+
+.img-consult > img {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 6px;
+ }
+
+
+ @media (max-width: 1003px ) {
+  #consultation-content {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    text-align: center;
+  }
+
+  .img-consult > img {
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  #consultation-individuelle-container {
+   padding:0 20px;
+ }
+
+ #sous-title-consult {
+    font-size: 18px;
+  }
+
+ }
