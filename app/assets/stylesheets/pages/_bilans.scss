@@ -64,18 +64,23 @@
   #consultation-content {
     display: flex;
     flex-direction: column;
-    // align-items: center;
+    align-items: center;
     text-align: center;
   }
 
   .img-consult > img {
     margin-bottom: 30px;
     width: 80%;
+    margin-right: 0 !important;
   }
 
   #consultation-individuelle-container {
    padding:0 20px;
  }
+
+ #consultation-text {
+    margin-left: 0 !important;
+  }
 
  #sous-title-consult {
     font-size: 18px;
