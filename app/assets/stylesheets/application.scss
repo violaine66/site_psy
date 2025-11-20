@@ -16,10 +16,13 @@
 body {
   font-family: 'Karla', sans-serif;
   padding-bottom: 60px; /* To ensure content is not hidden behind the fixed footer */
-  background-color: #fff;
-   overflow-x: hidden;
+  background-color: #ffff0e8;
 }
 
+
+html, body {
+  overflow-x: hidden;
+}
 
 .cormorant {
   // font-family: "Cormorant", serif;
