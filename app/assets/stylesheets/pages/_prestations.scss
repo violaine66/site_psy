@@ -28,7 +28,7 @@
  gap: 100px;
 }
 
-#bilan {
+#bilan, #bilan-bientot {
   background-color: #DEA394;
   box-sizing: border-box;
   line-height: 1.3;
@@ -71,7 +71,7 @@
 
 }
 
- #bilan > img {
+ #bilan > img, #bilan-bientot > img {
   width: 100px;
   height: 100px;
 
