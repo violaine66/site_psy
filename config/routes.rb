@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get "prestations", to: "pages#prestations", as: :prestations
   get "bilanpsychologique", to: "pages#bilanpsychologique", as: :bilanpsychologique
   get "consultationindividuelle", to: "pages#consultationindividuelle", as: :consultationindividuelle
+  get "bilancompetences", to: "pages#bilancompetences", as: :bilancompetences
 
   get "/psychologue-saint-esteve", to: redirect("/")
 

@@ -64,18 +64,16 @@
         <%= link_to bilanpsychologique_path, class: "click" do %>
           <div  id="bilan">Bilans Psychométriques <%= image_tag "puzzle.png" %></div>
         <% end %>
+        <%= link_to bilancompetences_path, class: "click " do %>
+          <div id="bilan">Bilans de compétences <%= image_tag "chemin.png", alt: "Cliquez ici pour en savoir plus" %></div>
+        <% end %>
+
+
       </div>
     </div>
 
 
-    <div class="row d-flex justify-content-center my-4" id="prestations-container">
-      <div class="d-flex justify-content-center"><h2 class="title">Prochainement</h2></div>
-          <div class="col-sm-12 col-md-8 col-lg-6 mt-4 justify-content-center" id="bilans-container">
 
-          <div id="bilan-bientot">Bilans d'orientation <br><br><%= image_tag "boussole.png" %></div>
-          <div id="bilan-bientot">Bilans de compétences <%= image_tag "chemin.png", alt: "Cliquez ici pour en savoir plus" %></div>
-        </div>
-    </div>
   </div>
 
 
