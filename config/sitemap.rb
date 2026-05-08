@@ -16,10 +16,20 @@ SitemapGenerator::Sitemap.compress = false
 
 SitemapGenerator::Sitemap.create do
   add '/', priority: 1.0, changefreq: 'weekly'
+
   add '/quisuisje', priority: 0.8, changefreq: 'monthly'
-  add '/bilans', priority: 0.8, changefreq: 'monthly'
-  add '/prestations', priority: 0.8, changefreq: 'monthly'
-  add '/rdv', priority: 0.7, changefreq: 'monthly'
-  add '/contact', priority: 0.7, changefreq: 'monthly'
+
+  add '/prestations', priority: 0.9, changefreq: 'monthly'
+
+  add '/bilanpsychologique', priority: 0.8, changefreq: 'monthly'
+
+  add '/consultationindividuelle', priority: 0.8, changefreq: 'monthly'
+
+  add '/bilancompetences', priority: 0.8, changefreq: 'monthly'
+
   add '/emdr', priority: 0.8, changefreq: 'monthly'
+
+  add '/rdv', priority: 0.7, changefreq: 'monthly'
+
+  add '/contact', priority: 0.7, changefreq: 'monthly'
 end
