@@ -21,4 +21,5 @@ SitemapGenerator::Sitemap.create do
   add '/prestations', priority: 0.8, changefreq: 'monthly'
   add '/rdv', priority: 0.7, changefreq: 'monthly'
   add '/contact', priority: 0.7, changefreq: 'monthly'
+  add '/emdr', priority: 0.8, changefreq: 'monthly'
 end

@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   get "bilanpsychologique", to: "pages#bilanpsychologique", as: :bilanpsychologique
   get "consultationindividuelle", to: "pages#consultationindividuelle", as: :consultationindividuelle
   get "bilancompetences", to: "pages#bilancompetences", as: :bilancompetences
-  get "EMDR", to: "pages#emdr", as: :emdr
+  get "emdr", to: "pages#emdr", as: :emdr
+  get '/EMDR', to: redirect('/emdr')
 
   get "/psychologue-saint-esteve", to: redirect("/")
 
