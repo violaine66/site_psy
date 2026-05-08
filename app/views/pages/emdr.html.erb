@@ -1,2 +1,83 @@
-<%= render 'shared/navbar' %>
-<%= render 'shared/footer' %>
+<%= render "shared/navbar" %>
+
+<div class="container cormorant">
+
+  <div class="mt-3 row d-flex justify-content-center align-items-end"
+       id="emdr-container">
+
+    <div class="max-w-5xl mx-auto p-6 bg-white rounded-xl shadow-md space-y-8">
+
+      <!-- TITRE -->
+      <h1 id="emdr-title" class="mb-6">
+        Thérapie EMDR
+      </h1>
+
+      <!-- INTRO -->
+      <h3 class="sous-title-emdr text-center">
+        L’EMDR (Eye Movement Desensitization and Reprocessing) est une thérapie reconnue pour le traitement des traumatismes psychiques.
+      </h3>
+
+      <h3 class="sous-title-emdr text-center">
+        Elle permet de retraiter des souvenirs difficiles afin de réduire leur charge émotionnelle et leur impact au quotidien.
+      </h3>
+
+      <p class="clarification text-center mt-3">
+        Recommandée par l’OMS pour le traitement du stress post-traumatique.
+      </p>
+
+      <!-- GRID 1 -->
+      <div class="emdr-grid">
+
+        <div class="emdr-card">
+          <h2 class="sous-title-consult">Dans quels cas ?</h2>
+          <ul>
+            <li>Traumatisme (accident, agression, deuil)</li>
+            <li>Anxiété ou phobies</li>
+            <li>Souvenirs envahissants / flashbacks</li>
+            <li>Stress post-traumatique</li>
+          </ul>
+        </div>
+
+        <div class="emdr-card">
+          <h2 class="sous-title-consult">Comment ça agit ?</h2>
+          <ul>
+            <li>Retraitement des souvenirs bloqués</li>
+            <li>Diminution de la charge émotionnelle</li>
+            <li>Intégration des expériences difficiles</li>
+            <li>Retour à un équilibre émotionnel</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- GRID 2 -->
+      <div class="emdr-grid mt-4">
+
+        <div class="emdr-card">
+          <h2 class="sous-title-consult">Déroulement</h2>
+          <ul>
+            <li>Entretien initial et anamnèse</li>
+            <li>Identification des souvenirs cibles</li>
+            <li>Stimulation bilatérale (mouvements oculaires)</li>
+            <li>Retraitement progressif du souvenir</li>
+          </ul>
+        </div>
+
+        <div class="emdr-card">
+          <h2 class="sous-title-consult">Objectifs</h2>
+          <ul>
+            <li>Apaiser les souvenirs traumatiques</li>
+            <li>Réduire les réactions émotionnelles</li>
+            <li>Restaurer un sentiment de sécurité</li>
+            <li>Améliorer le fonctionnement quotidien</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<%= render "shared/link-doctolib" %>
+<%= render "shared/footer" %>
