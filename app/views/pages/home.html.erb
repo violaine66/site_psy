@@ -64,6 +64,9 @@
         <%= link_to bilanpsychologique_path, class: "click" do %>
           <div  id="bilan">Bilans Psychométriques <%= image_tag "puzzle.png" %></div>
         <% end %>
+        <%= link_to emdr_path, class: "click " do %>
+          <div id="bilan">Thérapie<p><span>EMDR </span><em id="orientaction"></em></p><%= image_tag "emdr.jpg", alt: "Cliquez ici pour en savoir plus" %></div>
+        <% end %>
         <%= link_to bilancompetences_path, class: "click " do %>
           <div id="bilan">Bilans de compétences <p><em id="orientaction">ORIENTACTION®</em></p><%= image_tag "chemin.png", alt: "Cliquez ici pour en savoir plus" %></div>
         <% end %>
