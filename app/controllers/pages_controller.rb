@@ -10,4 +10,8 @@ class PagesController < ApplicationController
 
   def prestations
   end
+
+  def icv
+  
+  end
 end

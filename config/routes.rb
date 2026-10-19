@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get "bilancompetences", to: "pages#bilancompetences", as: :bilancompetences
   get "emdr", to: "pages#emdr", as: :emdr
   get '/EMDR', to: redirect('/emdr')
+  get "icv", to: "pages#icv", as: :icv
 
   get "/psychologue-saint-esteve", to: redirect("/")
 
